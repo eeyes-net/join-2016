@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>带你探索精彩e瞳</title>
+    <meta name="description" content="带你探索精彩e瞳">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        body {
+            background-color: #2b363c;
+            height: 100%;
+        }
+        img {
+            display: block;
+            margin: auto;
+            width: 80%;
+            position: fixed;
+            top: 15%;
+            left: 0;
+            right: 0;
+            magin-left: auto;
+            magin-right: auto;
+        }
+        .content div {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            font-family: 黑体;
+            font-size: 18px;
+            position: fixed;
+            bottom: 15%;
+            height: 25%;
+        }
+        .content {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            font-family: 黑体;
+            font-size: 18px;
+            position: fixed;
+            bottom: 15%;
+        }
+        .content h1 {
+            margin: 2em 0 2em 20%;
+            width: 60%;
+        }
+        .content p {
+            font-size: 15px;
+        }
+        .content a {
+            display: block;
+            margin: 4% auto 5.4% auto;
+            padding: 0.4em 1em;
+            background-color: #008f9b;
+            /*background-color: #aaa;*/
+            font-size: 20px;
+            border-radius: 10px;
+            vertical-align: middle;
+            width: 31%;
+            height: 31%;
+        }
+        .toscale {
+             -webkit-animation: toscale 1s ease-out infinite;
+                     animation: toscale 1s ease-out infinite;
+        }
+        @keyframes toscale {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        @-webkit-keyframes toscale {
+            0% {
+                -webkit-transform: scale(1);
+            }
+            50% {
+                -webkit-transform: scale(1.1);
+            }
+            100% {
+                -webkit-transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/Home/share.png" style="position:absolute;left:0;top:0;width:0;height:0;overflow:hidden">
+    <img src="images/Home/banner.png">
+    <div class="content">
+        <p>去招新网站</p>
+        <a href="index.htm" class="toscale">探索e瞳</a>
+        <p>我已经想好了</p>
+        <a href="join.html">直接报名</a>
+    </div>
+    <script>
+        (window.onresize = function () {
+            document.body.style.height = window.innerHeight + "px";
+        })();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>e瞳网2016招新</title>
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 引入所有样式 -->
+    <!-- <link rel="stylesheet" type="text/css" href=""> -->
+
+    <!-- 引入 jQuery 库 -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css"> -->
+
+    <!-- use Tweene with GSAP -->
+    <script src="dest/js/vendor.min.js"></script>
+    <script src="dest/js/tweene.min.js"></script>
+    <script>
+        window.$ = window.jQuery = require('jquery');
+        require('velocity-animate');
+        require('jquery.transit');
+        require('gsap');
+        Tweene.defaultTimeUnit = 'ms';
+        Tweene.defaultDriver = 'gsap';
+    </script>
+
+    <!-- 引入加载页样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/loading.css">
+
+    <!-- 引入页面自适应 -->
+    <script type="text/javascript" src="./js/suit.js"></script>
+
+</head>
+
+<body>
+    <!-- 加载页面 -->
+    <div id="loading-cover">
+        <img src="./images/star/bg1.jpg">
+        <div id="load-ball">
+            <div></div>
+            <img src="./images/ship.png">
+            <img src="./images/wave.png">
+            <span>0％</span>
+        </div>
+        <p>我们精心的作品<br>值得你少量的等待</p>
+    </div>
+    <!-- 引入通用参数、动画，加载页与第一页动效 -->
+    <script type="text/javascript" src="./js/loading.js"></script>
+
+    <!-- 引入 jQuery Mobile -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- <script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script> -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css"> -->
+
+    <!-- 引入swiper -->
+    <link rel="stylesheet" type="text/css" href="dest/css/swiper.min.css">
+    <script type="text/javascript" src="dest/js/swiper.min.js"></script>
+
+    <!-- 引入一级页面样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/main-style.css">
+
+    <!-- 引入一级其他页面动效等 -->
+    <script type="text/javascript" src="./js/main.js"></script>
+
+    <!-- 一级页面 -->
+    <div class="animate"></div>  <!-- 流星背景 -->
+    <div data-role="page" id="pagenav">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- 第一页 -->
+                <div class="swiper-slide" id="firstPage">
+                    <img src="./images/first/word1.png">
+                    <img src="./images/first/word2.png">
+                    <img src="./images/first/word3.png">
+                    <img src="./images/first/word4.png">
+                    <img src="./images/first/word5.png">
+                    <img src="./images/first/word6.png">
+                    <div class="ind"><img class="arrow" src="./images/common/arrow.png"></div>
+                </div>
+
+                <!-- 第二页 -->
+                <div class="swiper-slide" id="otwo">
+                    <div class="main-wrapper-c">
+                        <div class="second">
+                            <img src="./images/first/scan.png" class="sec-img1">
+                            <img src="./images/first/border.png" class="sec-img2">
+                        </div>
+                        <div class="sec-con" id="sec-div1">
+                            <p>四年后，你离开这里</p>
+                            <p>竟没有回忆</p>
+                            <p>开始回想四年前</p>
+                            <p>你见过的每一个社团</p>
+                            <p>设想参与它们其中一个</p>
+                            <p>会是什么样</p>
+                            <p>e瞳就是其中的一个</p>
+                        </div>
+                        <div class="sec-con" id="sec-div2">
+                            <p>就当这是一次时空旅行</p>
+                            <p>你从四年后来到现在</p>
+                            <p>看看你当初错过了什么</p>
+                            <p>所以，跟我上车</p>
+                            <p>来证明这次选择是正确的。</p>
+                        </div>
+                        <div class="sec-con" id="sec-div3">
+                            <p>我已在，你快来。</p>
+                            <p>我已在，你快来！</p>
+                        </div>
+                        <div class="ind"><img class="arrow" src="./images/common/arrow.png"></div>
+                    </div>
+                </div>
+
+                <!-- 第三页 -->
+                <div class="swiper-slide">
+                    <div class="star-container">
+                        <div class="main-wrapper">
+                            <!--<img src="./images/star/bg.png" id="star-bg">-->
+                            <img src="./images/star/zodiac.png" id="star-zodiac">
+                            <div id="star-content-wrapper">
+                                <div id="star-p1">2002年1月7日<br>e瞳网的服务器用一个平板车推回了交大，开始了艰辛的创站之路</div>
+                                <div id="star-p2">2003年9月16日<br>e瞳网正式推出，同时通过备案，成为受法律保护的合法网站</div>
+                                <div id="star-p3">2012年3月19日<br>交大知道上线，交大人从有了属于自己的问答平台</div>
+                                <div id="star-p4">2013年5月4日<br>轻博客“胭脂坡上”正式上线，在老牌工科学校开创一条文学之路</div>
+                                <div id="star-p5">2013年9月24日<br>e瞳大屏幕Beta1正式上线，搭建校园活动O2O平台</div>
+                                <div id="star-p6">2016年5月17日<br>微博直播交大之星决战之夜，开创e瞳网络直播的历史</div>
+                                <div id="star-p7">2016年7月<br>新版起航交大上线，丰富且实用的内容助力新生步入大学生活</div>
+                            </div>
+                            <div class="ind"><img class="arrow" src="./images/common/arrow.png"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 第四页 -->
+                <div class="swiper-slide" id="ofour">
+                    <div class="main-wrapper-c">
+                        <div class="second">
+                            <img src="./images/first/scan.png" class="sec-img1">
+                            <img src="./images/first/border.png" class="sec-img2">
+                        </div>
+                        <div class="sec-con" id="sec-div4">
+                            <p>无论是ｅ瞳内部还是外部</p>
+                            <p>对ｅ瞳网最深刻的印象都是</p>
+                            <p>家一般的归属感与凝聚力</p>
+                        </div>
+                        <div class="sec-con" id="sec-div5">
+                            <p>“胜则举杯相庆，败则奋勇相救”</p>
+                            <p>已经不只是一句口号了</p>
+                            <p>这种对ｅ瞳文化的认同</p>
+                            <p>在每一次各部门齐心协力</p>
+                            <p>为同一个目标奋斗的经历中</p>
+                            <p>不断加深</p>
+                        </div>
+                        <div class="sec-con" id="sec-div6">
+                            <p>搭建网站、网络直播、为学子发声</p>
+                            <p>每一个挑战都让我们走得更近</p>
+                            <p>冬至饺子宴、聚餐、春游、素拓</p>
+                            <p>每一次欢乐也给我们的青春</p>
+                            <p>留下了众多回忆</p>
+                        </div>
+                        <div class="sec-con" id="sec-div7">
+                            <p>正是因为有这样一群人的存在</p>
+                            <p>我们才更加相信</p>
+                            <p>互联网必然改变我们的生活</p>
+                            <p>而我们，终将改变世界</p>
+                        </div>
+                    </div>
+                    <div class="ind"><img class="arrow" src="./images/common/arrow.png"></div>
+                </div>
+
+                <!-- 第五页 -->
+                <div class="swiper-slide" id="total-overview">
+                    <div class="main-wrapper-c">
+                        <div class="mutiangle"><img src="./images/overview/mutiangle.png"></div>
+                        <a href="#techp" id="tech"><img class="bigplanet" src="./images/overview/tech.png"></a>
+                        <a href="#infop" id="info"><img class="bigplanet" src="./images/overview/info.png"></a>
+                        <a href="#manp" id="man"><img class="bigplanet" src="./images/overview/man.png"></a>
+                        <a href="#submit" class="form" style="-webkit-transform:translateX(-3rem);">立即报名</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入次级页面样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/second-style.css">
+    <!-- 引入次级页面动效 -->
+    <script type="text/javascript" src="./js/second.js"></script>
+
+    <!-- 次级页面 -->
+    <!-- 小星球 -->
+    <div data-role="page" id="manp">
+        <div class="main-wrapper-c">
+            <div class="dDabumen">
+                <img class="Dabumen" src="./images/overview/man.png">
+            </div>
+            <a href="#market-o" id="marketp"><img class="bigplanet1" src="./images/overview/market.png"></a>
+            <a href="#publicrelation-o" id="publicrelationp"><img class="bigplanet1" src="./images/overview/pr.png"></a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+        <script type="text/javascript">
+            // $(document).ready(function () {
+            //     $('.dDabumen img').width(cwidth * 0.5).height(cwidth * 0.5);
+            //     $('.dDabumen').height(cwidth * 0.5);
+            //     //$('.dDabumen').width(cwidth*0.5);
+            //     //console.log($('.dDabumen').height()*0.5)
+            //     $('.dDabumen').css({top: cheight * 0.5 - $('.dDabumen').height() * 0.5 + 'px'});
+            //     $('.bigplanet1').width(cwidth * 0.2).height(cwidth * 0.2 * 146 / 118);
+            //     //$('#marketp').width(cwidth*0.2);
+            //     //$('#marketp').css({left: cwidth*0.5 - $('.bigplanet').width()*0.5 + 'px', top: cheight*0.5 - 160 - $('.bigplanet').height()*0.5 + 'px' })
+            //     //$('#publicrelationp').css({left: cwidth*0.5 - $('.bigplanet').width()*0.5 + 'px', top: cheight*0.5 - 160 - $('.bigplanet').height()*0.5 + 'px' })
+            //     var surroundman = Tweene.line();
+            //     var surroundman1 = Tweene.line();
+            //     //console.log($('#market').width())
+            //     var xstd = cwidth * 0.5 - $('.bigplanet1').width() * 0.5,
+            //             ystd = cheight * 0.5 - $('.bigplanet1').height() * 0.5,
+            //             x = 0,
+            //             y = -160,
+            //             angle = 0,
+            //             unit = Math.PI / 180;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#marketp')).set({left: xstd + x + 'px', top: ystd + y + 'px'})
+            //     //console.log(xstd,ystd)
+            //     while (angle < Math.PI * 2) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle);
+            //         y = -160 * Math.cos(angle);
+            //         surroundman.add(Tweene.get($('#marketp')).to({
+            //             left: xstd + x + 'px',
+            //             top: ystd + y + 'px'
+            //         }).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     angle = Math.PI;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#publicrelationp')).set({left: xstd + x + 'px', top: ystd + y + 'px'})
+            //     while (angle < Math.PI * 3) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle);
+            //         y = -160 * Math.cos(angle);
+            //         surroundman1.add(Tweene.get($('#publicrelationp')).to({
+            //             left: xstd + x + 'px',
+            //             top: ystd + y + 'px'
+            //         }).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     $('#man').on('click', function () {
+            //         surroundman.restart();
+            //         surroundman1.restart();
+            //     });
+            // });
+        </script>
+    </div>
+    <div data-role="page" id="infop">
+        <div class="main-wrapper-c">
+            <div class="dDabumen">
+                <img class="Dabumen" src="./images/overview/info.png">
+            </div>
+            <a href="#news-o" id="newsp"><img class="bigplanet" src="./images/overview/news.png"></a>
+            <a href="#movie-o" id="moviep"><img class="bigplanet" src="./images/overview/movie.png"></a>
+            <a href="#newmedia-o" id="newmediap"><img class="bigplanet" src="./images/overview/newmedia.png"></a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+        <script type="text/javascript">
+            // $(document).ready(function () {
+            //     $('.dDabumen img').width(cwidth * 0.5).height(cwidth * 0.5);
+            //     $('.dDabumen').height(cwidth * 0.5);
+            //     //$('.dDabumen').width(cwidth*0.5);
+            //     //console.log($('.dDabumen').height()*0.5)
+            //     $('.dDabumen').css({top: cheight * 0.5 - $('.dDabumen').height() * 0.5 + 'px'});
+            //     $('.bigplanet1').width(cwidth * 0.2).height(cwidth * 0.2 * 146 / 118);
+            //     //$('#marketp').width(cwidth*0.2);
+            //     //$('#marketp').css({left: cwidth*0.5 - $('.bigplanet').width()*0.5 + 'px', top: cheight*0.5 - 160 - $('.bigplanet').height()*0.5 + 'px' })
+            //     //$('#publicrelationp').css({left: cwidth*0.5 - $('.bigplanet').width()*0.5 + 'px', top: cheight*0.5 - 160 - $('.bigplanet').height()*0.5 + 'px' })
+            //     var surroundinfo = Tweene.line();
+            //     var surroundinfo1 = Tweene.line();
+            //     var surroundinfo2 = Tweene.line();
+            //     //console.log($('#market').width())
+            //     var xstd = cwidth * 0.5 - $('.bigplanet1').width() * 0.5,
+            //             ystd = cheight * 0.5 - $('.bigplanet1').height() * 0.5,
+            //             x = 0,
+            //             y = -160,
+            //             angle = 0,
+            //             unit = Math.PI / 180;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#newsp')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     //console.log(xstd,ystd)
+            //     while (angle < Math.PI * 2) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle);
+            //         y = -160 * Math.cos(angle) + 160;
+            //         surroundinfo.add(Tweene.get($('#newsp')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     angle = Math.PI / 180 * 120;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#moviep')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     while (angle < Math.PI / 180 * 480) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle) - 160 * Math.sin(Math.PI / 180 * 120);
+            //         y = -160 * Math.cos(angle) + 160 * Math.cos(Math.PI / 180 * 120);
+            //         surroundinfo1.add(Tweene.get($('#moviep')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     angle = Math.PI / 180 * 240;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#newmediap')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     while (angle < Math.PI / 180 * 600) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle) - 160 * Math.sin(Math.PI / 180 * 240);
+            //         y = -160 * Math.cos(angle) + 160 * Math.cos(Math.PI / 180 * 240);
+            //         surroundinfo2.add(Tweene.get($('#newmediap')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     $('#info').on('click', function () {
+            //         surroundinfo.restart();
+            //         surroundinfo1.restart();
+            //         surroundinfo2.restart();
+            //     });
+            // });
+        </script>
+    </div>
+    <div data-role="page" id="techp">
+        <div class="main-wrapper-c">
+            <div class="dDabumen">
+                <img class="Dabumen" src="./images/overview/tech.png">
+            </div>
+            <a href="#product-o" id="productp"><img class="bigplanet" src="./images/overview/product.png"></a>
+            <a href="#frontend-and-art-o" id="frontend-and-artp"><img class="bigplanet" src="./images/overview/frontend-and-art.png"></a>
+            <a href="#backapp-o" id="backappp"><img class="bigplanet" src="./images/overview/backapp.png"></a>
+            <a href="#backend-o" id="backendp"><img class="bigplanet" src="./images/overview/backend.png"></a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+        <script type="text/javascript">
+            // $(document).ready(function () {
+            //     $('.dDabumen img').width(cwidth * 0.5).height(cwidth * 0.5);
+            //     $('.dDabumen').height(cwidth * 0.5);
+            //     //$('.dDabumen').width(cwidth*0.5);
+            //     //console.log($('.dDabumen').height()*0.5)
+            //     $('.dDabumen').css({top: cheight * 0.5 - $('.dDabumen').height() * 0.5 + 'px'});
+            //     $('.bigplanet1').width(cwidth * 0.2).height(cwidth * 0.2 * 146 / 118);
+            //     //$('#marketp').width(cwidth*0.2);
+            //     //$('#marketp').css({left: cwidth*0.5 - $('.bigplanet').width()*0.5 + 'px', top: cheight*0.5 - 160 - $('.bigplanet').height()*0.5 + 'px' })
+            //     //$('#publicrelationp').css({left: cwidth*0.5 - $('.bigplanet').width()*0.5 + 'px', top: cheight*0.5 - 160 - $('.bigplanet').height()*0.5 + 'px' })
+            //     var surroundtech = Tweene.line();
+            //     var surroundtech1 = Tweene.line();
+            //     var surroundtech2 = Tweene.line();
+            //     var surroundtech3 = Tweene.line();
+            //     //console.log($('#market').width())
+            //     var xstd = cwidth * 0.5 - $('.bigplanet1').width() * 0.5,
+            //             ystd = cheight * 0.5 - $('.bigplanet1').height() * 0.5,
+            //             x = 0,
+            //             y = -160,
+            //             angle = 0,
+            //             unit = Math.PI / 180;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#productp')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     //console.log(xstd,ystd)
+            //     while (angle < Math.PI * 2) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle);
+            //         y = -160 * Math.cos(angle) + 160;
+            //         surroundtech.add(Tweene.get($('#productp')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     angle = Math.PI / 180 * 90;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#frontend-and-artp')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     while (angle < Math.PI / 180 * 450) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle) - 160 * Math.sin(Math.PI / 180 * 90);
+            //         y = -160 * Math.cos(angle) + 160 * Math.cos(Math.PI / 180 * 90);
+            //         surroundtech1.add(Tweene.get($('#frontend-and-artp')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     angle = Math.PI / 180 * 180;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#backappp')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     while (angle < Math.PI / 180 * 540) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle) - 160 * Math.sin(Math.PI / 180 * 180);
+            //         y = -160 * Math.cos(angle) + 160 * Math.cos(Math.PI / 180 * 180);
+            //         surroundtech2.add(Tweene.get($('#backappp')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     angle = Math.PI / 180 * 270;
+            //     x = 160 * Math.sin(angle);
+            //     y = -160 * Math.cos(angle);
+            //     Tweene.get($('#backendp')).set({left: xstd + x + 'px', top: ystd + y + 'px'});
+            //     while (angle < Math.PI / 180 * 630) {
+            //         angle += unit;
+            //         x = 160 * Math.sin(angle) - 160 * Math.sin(Math.PI / 180 * 270);
+            //         y = -160 * Math.cos(angle) + 160 * Math.cos(Math.PI / 180 * 270);
+            //         surroundtech3.add(Tweene.get($('#backendp')).to({transform: "translate(" + x + 'px,' + y + 'px'}).duration(60).easing([0, 0, 1, 1]));
+            //     }
+            //     $('#tech').on('click', function () {
+            //         surroundtech.restart();
+            //         surroundtech1.restart();
+            //         surroundtech2.restart();
+            //         surroundtech3.restart();
+            //     });
+            // });
+        </script>
+    </div>
+
+    <!-- 市场部简介页 -->
+    <div data-role="page" id="market-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/ShiChang/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/ShiChang/center@3x.png">
+                <img src="" remark="./images/ShiChang/ball1@3x.png">
+                <img src="" remark="./images/ShiChang/ball2@3x.png">
+                <img src="" remark="./images/ShiChang/ball3@3x.png">
+                <img src="" remark="./images/ShiChang/ball4@3x.png">
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>集外联和内部协调于一身的门户部门<br>赞助拉取、冬至联欢、春游素拓<br>处处可以看见市场人的智慧与担当<br>希望与慧眼识珠的你同行<br>培养沟通能力、学习职场<br>技能享受社团的严谨敬业与温馨有爱</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#market" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 公关部简介页 -->
+    <div data-role="page" id="publicrelation-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/GongGuan/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/GongGuan/man@3x.png">
+                <img src="" remark="./images/GongGuan/tie1@3x.png">
+                <img src="" remark="./images/GongGuan/tie2@3x.png">
+                <img src="" remark="./images/GongGuan/tie3@3x.png">
+                <img src="" remark="./images/GongGuan/tie4@3x.png">
+                <img src="" remark="./images/GongGuan/tie5@3x.png">
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>公共关系 营销文案<br>我们向外展示e瞳专业的水准<br>访谈记录 作文排版<br>我们对内做出自己满意的产品<br>商谈于口 谋划于心 生花于笔<br>给我们一个<br>助你成长的机会</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#publicrelation" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 新闻部简介页 -->
+    <div data-role="page" id="news-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/XinWen/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/XinWen/sun@3x.png" id="news-o-sun">
+                <img src="" remark="./images/XinWen/voice@3x.png" id="news-o-voice">
+                <span id="news-o-bg"><img src="" remark="./images/XinWen/bg@3x.jpg"></span>
+                <div id="news-o-img">
+                    <img src="" remark="./images/XinWen/sun@3x.png">
+                    <img src="" remark="./images/XinWen/mouse@3x.png">
+                    <img src="" remark="./images/XinWen/words/A@3x.png">
+                    <img src="" remark="./images/XinWen/words/B@3x.png">
+                    <img src="" remark="./images/XinWen/words/C@3x.png">
+                    <img src="" remark="./images/XinWen/words/d@3x.png">
+                    <img src="" remark="./images/XinWen/words/e@3x.png">
+                    <img src="" remark="./images/XinWen/words/F@3x.png">
+                    <img src="" remark="./images/XinWen/words/g@3x.png">
+                    <img src="" remark="./images/XinWen/words/h@3x.png">
+                    <img src="" remark="./images/XinWen/words/I@3x.png">
+                    <img src="" remark="./images/XinWen/words/J@3x.png">
+                    <img src="" remark="./images/XinWen/words/K@3x.png">
+                    <img src="" remark="./images/XinWen/words/L@3x.png">
+                    <img src="" remark="./images/XinWen/words/M@3x.png">
+                    <img src="" remark="./images/XinWen/words/N@3x.png">
+                    <img src="" remark="./images/XinWen/words/o@3x.png">
+                </div>
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>采访 咨询 舆论<br>我们时刻把握交大动态<br>访谈技巧 新闻写作<br>微信推送 创意图集<br>我们致力于采集热点新闻<br>挖掘最深刻的交大精神<br>学弟学妹们 快到碗里来</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#news" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 影视部简介页 -->
+    <div data-role="page" id="movie-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/YinShi/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/YinShi/bottom@3x.png">
+                <img src="" remark="./images/YinShi/head@3x.png">
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>拍摄与剪辑的融合<br>科技与艺术的碰撞<br>视觉与听觉的综合观赏<br>从好莱坞的幻想世界<br>到新闻里的现实生活<br>只要你有梦想<br>我们让你成为下一个Spielberg</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#movie" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 新媒体部简介页 -->
+    <div data-role="page" id="newmedia-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/XinMei/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <div id="newmedia-o-img1">
+                    <img src="" remark="./images/XinMei/Xuan@3x.png">
+                    <img src="" remark="./images/XinMei/wechat@3x.png">
+                    <img src="" remark="./images/XinMei/weibo@3x.png">
+                </div>
+                <div id="newmedia-o-img2">
+                    <span>共享</span>
+                    <span>交互</span>
+                    <span>生命力</span>
+                    <span>价值</span>
+                    <span>原创</span>
+                    <span>舆论</span>
+                    <span>效应</span>
+                    <span>咨讯</span>
+                    <span>采访</span>
+                </div>
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>站在时代与技术的前沿<br>我们是e瞳网的形象设计师<br>我们是一双眼 我们是一扇窗<br>严肃而不失活泼，文艺而不失深度<br>人不精彩枉少年<br>加入e瞳新媒体<br>愿你早日告诉这世界你的样子</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#newmedia" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 产品部简介页 -->
+    <div data-role="page" id="product-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/ChanPin/title@2x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <div id="product-o-line">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div id="product-o-ball">
+                    <img src="" remark="./images/ChanPin/lamp@2x.png" class="lamp">
+                    <img src="" remark="./images/ChanPin/lamp2@2x.png" class="lamp">
+                    <img src="" remark="./images/ChanPin/b1@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs1@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b2@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs2@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b3@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs3@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b4@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs4@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b5@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs5@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b6@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs6@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b7@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs7@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b8@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs8@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b9@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs9@3x.png" class="ballshine">
+                    <img src="" remark="./images/ChanPin/b10@3x.png" class="ball">
+                    <img src="" remark="./images/ChanPin/bs10@3x.png" class="ballshine">
+                </div>
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>令好奇和脑洞萌芽<br>从交互和体验奠基<br>用沟通与负责浇灌<br>使产品从雏形走向成品<br>加入产品部<br>让想法亮起来</span></div>
+            <!-- 跳转按钮 -->
+            <a href="#product" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 前端美工组简介页 -->
+    <div data-role="page" id="frontend-and-art-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/QianDuan/title@2x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/QianDuan/icon@2x.png" id="frontend-plane">
+                <img src="" remark="./images/QianDuan/css@2x.png" id="frontend-css">
+                <img src="" remark="./images/QianDuan/ai@2x.png" id="frontend-ai">
+                <img src="" remark="./images/QianDuan/js@2x.png" id="frontend-js">
+                <img src="" remark="./images/QianDuan/ps@2x.png" id="frontend-ps">
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro">
+                <span>什么都不用说<br>这个招新页面是我们做的~</span><br><span>全程原创</span><br><span>想实现你的脑洞吗</span><br><span>快快加入我们吧！</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#frontend-and-art" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 后台app组简介页 -->
+    <div data-role="page" id="backapp-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/App/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/App/bee@3x.png">
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>还在苦恼手机软件功能不够实用？<br>还在寻找一款适合自己的游戏？<br>不用再等啦，自己动手，丰衣足食！<br>Flappy Bird，Popstart，2048，<br>围住神经猫等游戏轻松开发！<br>android创意开发之旅，等你来战。</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#backapp" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+    </div>
+    <!-- 后台web组简介页 -->
+    <div data-role="page" id="backend-o" class="FenYe">
+        <div class="content-J">
+            <!-- 标题 -->
+            <div class="title"><img src="" remark="./images/web/title@3x.png"></div>
+            <!-- 动画icon -->
+            <div class="icon">
+                <img src="" remark="./images/web/bs@3x.png" id="backend-o-ballshine">
+                <span id="backend-o-bg"><img src="" remark="./images/web/bg@3x.jpg"></span>
+                <img src="" remark="./images/web/b@3x.png" id="backend-o-ball">
+                <img src="" remark="./images/web/ufo@3x.png" id="backend-o-ufo">
+            </div>
+            <!-- 部门简介词 -->
+            <div class="intro"><span>这里由代码组成，由命令守护<br>每一次操作都有深思熟虑<br>为的是服务器的安全<br>为的是更优质的服务<br>来这里，<br>了解后端那些不为人知的秘密<br>ｅ瞳网后台WEB，期待你的加入</span>
+            </div>
+            <!-- 跳转按钮 -->
+            <a href="#backend" class="more">点击探索</a>
+            <a href="#submit" class="form">立即报名</a>
+            <a href="#" data-rel="back" class="back">返回</a>
+        </div>
+        <!-- 页面动效 -->
+    </div>
+
+    <!-- 市场部详情 -->
+    <div data-role="page" id="market">
+        <a href="#" data-rel="back" class="back">返回</a>
+        <link rel="stylesheet" href="./css/index.css">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("a[href='#product']").on('click', function () {
+                    $('.page1').css({background: "url('./images/page1_bg.png')"});
+                    $('.page2').css({background: "url('./images/market/bg.png')"})
+                })
+            });
+            var GC = {
+                w: document.documentElement.clientWidth,
+                h: document.documentElement.clientHeight
+            };
+            var init = {};
+            init.isCanMove = false;
+        </script>
+        <script type="text/javascript" src="./js/index.js"></script>
+        <script type="text/javascript" src="./js/zepto.min.js"></script>
+        <script type="text/javascript" src="./js/Loader.js"></script>
+        <script type="text/javascript" src="./js/jweixin-1.0.0.js"></script>
+        <script type="text/javascript" src="./js/share.js"></script>
+        <div class="page loading">
+            <!--<div class="progress">-->
+            <!--<div id="content"></div>-->
+            <!--</div>-->
+            <!--<p class="number">0%</p>-->
+            <!--<div class="loadAnimate"></div>-->
+            <div class="loadIMG"></div>
+        </div>
+        <div class="page page1 hidden">
+            <audio class="tips" src="" remark="./images/message.mp3" preload="none"></audio>
+            <div class="content">
+                <div class="date">
+                    <p class="time">00:35</p>
+                    <p class="week">10月24日 星期六</p>
+                </div>
+                <ul class="message">
+                    <li class="page1LiAnimate">
+                        <p calss="title">QQ<em> 现在</em></p>
+                        <p class="info">学长，市场部是做什么的呢？ </p>
+                </ul>
+                <!--<div class="footer"><p> > 滑动解锁 </p></div>-->
+                <div class="footer"></div>
+            </div>
+            <audio class="unlock" src="" remark="./images/unlock.mp3" preload="none"></audio>
+        </div>
+        <div class="page page2 hidden" id="market_bg">
+            <audio class="tips" src="" remark="./images/message.mp3" preload="none"></audio>
+            <div class="con">
+                <ul class="content clearfix">
+                    <li class="clearfix msgright">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">学长，市场部是做什么的呢？</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">主管</p>
+                            <p class="mess">作为网站的门户部门，市场部不仅负责对外的赞助拉取和外联交流工作，同时承担内部联谊等活动的策划组织以及部门协调沟通的工作。</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo new1"></div>
+                        <div>
+                            <p class="username">萌新1</p>
+                            <p class="mess">萌新求问，在市场部我能学到什么呢？</p>
+                        </div>
+                    </li>
+
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">主管</p>
+                            <p class="mess">在这里你能学到职场办公必备技能、培养合作协调沟通能力。</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo new2"></div>
+                        <div>
+                            <p class="username">萌新2</p>
+                            <p class="mess">那个……市场部的氛围怎么样呢</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">主管</p>
+                            <p class="mess">市场部的氛围非常好呀!我们不仅有严谨敬业的企业文化、还有温馨有爱的社团氛围。</p>
+                        </div>
+                    </li>
+
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">主管</p>
+                            <p class="mess">
+                                <img src="" remark="./images/market/redbag.png" substitute="./images/market/note.png">
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("a[href='#market']").on('click', function () {
+                    $('#market img[remark]').attr('src', function () {
+                        return $(this).attr('remark')
+                    });
+                    var market_audio = $('#market audio');
+                    for (var i = 0; i < market_audio.length; i++) {
+                        (function (index) {
+                            if (!market_audio[index].src) {
+                                market_audio[index].src = market_audio[index].remark
+                            }
+                        })(i)
+                    }
+                });
+                $('#market img').on('click', function () {
+                    $('#market img[remark]').attr('src', function () {
+                        return $(this).attr('substitute')
+                    });
+                })
+            })
+        </script>
+    </div>
+    <!-- 公关部详情页 -->
+    <div data-role="page" id="publicrelation">
+        <div class="content-X">
+            <div>
+                <p>你想知道如何处理好<br>他人的委托需求吗</p>
+                <p>你想知道如何策划一期<br>引人注目的宣传营销吗</p>
+                <p>你想知道如何写出<br>大开脑洞令人捧腹<br>的宣传文案吗</p>
+            </div>
+            <div>
+                我们负责对其他部门的活动做营销宣传，提升网站信息，处理公共关系。
+                <div class="publicrelation_one">
+                    <p>运营西交V世界公众号</p>
+                    <p>与教务处合作搭建留学信息窗口</p>
+                </div>
+                <img src="" remark="./images/GongGuan/pic1.png" class="publicrelation_one">
+                <div class="publicrelation_two">
+                    <p>运营西安交大团委公众号</p>
+                    <p>做好校团委的宣传平台</p>
+                </div>
+                <img src="" remark="./images/GongGuan/pic2.png" class="publicrelation_two">
+            </div>
+            <div>
+                <p>这里是e瞳网公共关系部</p>
+                <p>给我们一个让你知道的机会</p>
+            </div>
+        </div>
+        <img src="" remark="./images/GongGuan/pepole.jpg">
+        <a href="#" data-rel="back" class="back">返回</a>
+    </div>
+    <!-- 新闻部详情页 -->
+    <div data-role="page" id="news">
+        <div class="news-contain"><img src="" remark="./images/XinWen/pic5.jpg"></div>
+        <div class="news-contain"><img src="" remark="./images/XinWen/pic4.jpg"></div>
+        <div class="news-contain"><img src="" remark="./images/XinWen/pic3.jpg"></div>
+        <div class="news-contain"><img src="" remark="./images/XinWen/pic2.jpg"></div>
+        <div class="news-contain"><img src="" remark="./images/XinWen/pic1.jpg"></div>
+        <div id="news-hint1">
+            <div id="news-left"><p>上<br>一<br>页</p></div>
+            <div id="news-right"><p>下<br>一<br>页</p></div>
+        </div>
+        <div id="news-hint2">已经是第一页</div>
+        <div id="news-hint3">已经是最后一页</div>
+        <a href="#" data-rel="back" class="back">返回</a>
+    </div>
+    <!-- 影视部详情页 -->
+    <div data-role="page" id="movie">
+        <img src="" remark="./images/media/total.jpg" id="movie-total">
+        <div class="contentJ">
+            <video id="video1" preload="none">
+                <source src="./images/media/movie.mp4"/>
+            </video>
+        </div>
+        <div id="hint">收到影视部邀请，点击查收<br/>视频很小（3.5M），请放心观看</div>
+        <div id="movie-control">
+            <img src="" remark="./images/media/control.png" id="movie-control-img">
+            <a id="movie-back" data-rel="back">返回</a>
+            <a id="movie-play">播放</a>
+        </div>
+    </div>
+    <!-- 新媒体详情页 -->
+    <div data-role="page" id="newmedia">
+        <audio id="voice0" src="media/newmedia.mp3" preload="none"></audio>
+        <div id="newmedia_word">
+            <img src="./images/player/detail.png">
+            <p>新媒体部</p>
+            <div class="lrc-panel">
+                <div class="lrc-real">
+                    <p>站在时代与技术的前沿</p>
+                    <p>我们是e瞳网的形象设计师</p>
+                    <p>我们输送精辟的观点与看法</p>
+                    <p>我们传递新鲜及时的</p>
+                    <p>资讯与信息</p>
+                    <p>我们开发管理</p>
+                    <p>e瞳网的各个新媒体平台</p>
+                    <p>打造属于e瞳的特色品牌——</p>
+                    <p>严肃而不失活泼</p>
+                    <p>文艺而不失深度</p>
+                    <p>我们聚焦大学生活</p>
+                    <p>我们为你们发声</p>
+                    <p>我们关注意料之外</p>
+                    <p>情理之中的疑惑</p>
+                    <p>思考生活的琐碎</p>
+                    <p>发现周遭的有趣</p>
+                    <p>我们挑战常理</p>
+                    <p>我们也发现规律</p>
+                    <p>我们畅所欲言，也来者不拒</p>
+                    <p>刁钻、宽容或者古怪</p>
+                    <p>悲情、乐观或是冷静</p>
+                    <p>我们接受各种视角和态度</p>
+                    <p>展现一个平台的胸怀。</p>
+                    <p>我们，是一扇窗</p>
+                    <p>在这里，你会看到e瞳网</p>
+                    <p>看到我们想说的</p>
+                    <p>看到我们想做的</p>
+                    <p>你可以看到交大</p>
+                    <p>看到你身边的利益相关</p>
+                    <p>看到你会感兴趣的逸闻趣事</p>
+                    <p>看到交大的有趣和严谨</p>
+                    <p>你可以看到</p>
+                    <p>这个网络时代的世界</p>
+                    <p>在新媒体平台如何运转</p>
+                    <p>新媒体部，等你，风生水起</p>
+                </div>
+            </div>
+        </div>
+        <div id="newmedia_button">
+            <img src="" remark="./images/player/shuffle.png">
+            <img src="" remark="./images/player/prev.png">
+            <img src="" remark="./images/player/play.png" id="toggle-msc">
+            <img src="" remark="./images/player/prev.png">
+            <img src="" remark="./images/player/repeat.png">
+        </div>
+    </div>
+    <!-- 产品部详情页 -->
+    <div data-role="page" id="product">
+        <a href="#" data-rel="back" class="back">返回</a>
+        <link rel="stylesheet" href="./css/index.css">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("a[href='#product']").on('click', function () {
+                    $('.page1').css({background: "url('./images/chanpinMore/page1_bg.png')"});
+                    $('.page2').css({background: "url('./images/chanpinMore/page2_bg.png')"})
+                })
+            });
+            var GC = {
+                w: document.documentElement.clientWidth,
+                h: document.documentElement.clientHeight
+            };
+            var init = {};
+            init.isCanMove = false;
+        </script>
+        <script type="text/javascript" src="./js/index.js"></script>
+        <script type="text/javascript" src="./js/zepto.min.js"></script>
+        <script type="text/javascript" src="./js/Loader.js"></script>
+        <script type="text/javascript" src="./js/jweixin-1.0.0.js"></script>
+        <script type="text/javascript" src="./js/share.js"></script>
+        <div class="page loading">
+            <!--<div class="progress">-->
+            <!--<div id="content"></div>-->
+            <!--</div>-->
+            <!--<p class="number">0%</p>-->
+            <!--<div class="loadAnimate"></div>-->
+            <div class="loadIMG"></div>
+        </div>
+        <div class="page page1 hidden">
+            <audio class="tips" src="" remark="./images/message.mp3" preload="none"></audio>
+            <div class="content">
+                <div class="date">
+                    <p class="time">00:35</p>
+                    <p class="week">10月24日 星期六</p>
+                </div>
+                <ul class="message">
+                    <li class="page1LiAnimate">
+                        <p calss="title">微信<em> 现在</em></p>
+                        <p class="info">智商担当：我爱学习！学习使我快乐！不学习我浑身难受！ </p>
+                    </li>
+                </ul>
+                <!--<div class="footer"><p> > 滑动解锁 </p></div>-->
+                <div class="footer"></div>
+            </div>
+            <audio class="unlock" src="" remark="./images/unlock.mp3" preload="none"></audio>
+        </div>
+        <div class="page page2 hidden" id="wechat_bg">
+            <audio class="tips" src="" remark="./images/chanpinMore/message.mp3" preload="none"></audio>
+            <div class="con">
+                <ul class="content clearfix">
+                    <li class="clearfix msgleft">
+                        <p class="mTime"><span>这里是e瞳网产品部</span></p>
+                    </li>
+                    <li class="clearfix msgleft">
+                        <p class="mTime"><span>一个活跃着思想的部门</span></p>
+                    </li>
+                    <li class="clearfix msgleft">
+                        <p class="mTime"><span>我们时刻关注互联网动态</span></p>
+                    </li>
+                    <li class="clearfix msgleft">
+                        <p class="mTime"><span>讨论产品特点</span></p>
+                    </li>
+                    <li class="clearfix msgleft">
+                        <p class="mTime"><span>培养洞察力、思辨力和产品理念</span></p>
+                    </li>
+
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">这周分享会你们讲什么</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">我打算分析一下微信和qq定位的不同</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">和微信成长的整个历程</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">我打算分析下知乎</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">知乎的文化氛围很不错，其实它最初几年是不对大众开放的</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">嗯我打算讲一下共享经济</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">以及现在很火的这方面的产品</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>......</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>开脑洞是我们的日常工作</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>不嫌脑洞大　只怕没想法</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>由于产品正在开发　具体内容不对外公开</span></p>
+                    </li>
+
+
+                    <li class="clearfix msgright hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">交大信息发布太散了，哎我又错过了一个很重要的活动</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">我们可以做一个％＊＄＃％＃＄＠％！！</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">嗯，这个功能如果和…….结合起来，应该体验很赞</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">还可以做一个………这个问题平时也听到挺多人抱怨的</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">啊是啊可以参考下闲鱼嘛（傲娇脸） </p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">嗯啊其实从共享经济考虑，还可以加一些%&、**、@%的功能</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">好，这个功能可能还需要和别的部门甚至其他社团合作</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>......</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>可我们也是脚踏实地的策划者</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">那现在理一下想法</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">明确下定位</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">定位不清的产品做不好</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">别急，等我再去调查下市场需求</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">可以可以</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">我们多做几种定位和策划方案</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">再斟酌下可能性</p>
+                        </div>
+                    </li>
+
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>......</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们是严谨细致的设计者</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们做信息架构、交互设计</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>考虑每一个环节的用户体验</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们不写代码不专长PS</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>却也需要对视觉设计、前端后端有入门级的了解</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">现在我们把所有的功能划分好主次</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">明确产品特色</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">做一下信息架构的处理</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">我觉得这个地方用一个…的引导会对用户很友好</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">这个想法不错！(๑• . •๑)</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">好像是的！</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">啊啊啊小鲜肉！(๑• . •๑)</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgright hidden">
+                        <div class="photo boss"></div>
+                        <div>
+                            <p class="username">我</p>
+                            <p class="mess">不过我们该怎么突出XXX的特色呢</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们将需求分析和交互稿同其他技术人员商讨</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们和美工共同完成界面设计</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们跟进整个项目的开发</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>保证项目在ddl之内完成</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">这个项目你负责了＠脑洞担当</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">啊….我没有项目经验⊙﹏⊙</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">没事，我会帮忙看着</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">但是记住你是整个团队的推动者</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo"></div>
+                        <div>
+                            <p class="username">智商担当</p>
+                            <p class="mess">是产品的负责人</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <div class="photo mix"></div>
+                        <div>
+                            <p class="username">脑洞担当</p>
+                            <p class="mess">嗯</p>
+                        </div>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>……</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们学习项目管理</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>注重交流技巧</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>保证团队有效沟通、高效开发</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>我们做信息架构、交互设计</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>在这里，你收获的</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>不止是技术</span></p>
+                    </li>
+                    <li class="clearfix msgleft hidden">
+                        <p class="mTime"><span>欢迎加入我们</span></p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("a[href='#product']").on('click', function () {
+                    $('#product img[remark]').attr('src', function () {
+                        return $(this).attr('remark')
+                    });
+                });
+            })
+        </script>
+    </div>
+    <!--前端美工组详情页-->
+    <div data-role="page" id="frontend-and-art">
+        <div class="content">
+            <img src="" remark="images/QianDuan/bg2.jpg">
+            <img src="" remark="images/QianDuan/bg.png">
+            <div id="name"></div>
+            <p id="monaname">蒙娜丽莎的微笑</p>
+            <p id="motuname">萌兔丽莎的微笑</p>
+            <img id="mona" src="" remark="images/QianDuan/mona.jpg">
+            <img id="motu" src="" remark="images/QianDuan/motu.jpg">
+            <img id="rabbit" src="" remark="images/QianDuan/rabbit.png">
+            <img id="speak" src="" remark="images/QianDuan/speak.png">
+            <img id="screen" src="" remark="images/QianDuan/screen.png">
+            <div class="qianduanword">
+                <p>我们是e瞳前端美工组</p>
+                <p>我们开发网页</p>
+                <p>实现酷炫的动效</p>
+                <p>制作不可思议的图像</p>
+                <p>别激动，吃颗药冷静下</p>
+                <p>然后快快加入我们吧</p>
+            </div>
+            <a href="#" data-rel="back" class="back">返回</a>
+
+        </div>
+    </div>
+
+    <!--后台web组详情页-->
+    <div data-role="page" id="backend">
+        <link rel="stylesheet" href="./css/jquery.terminal.min.css">
+        <link rel="stylesheet" href="./css/backend.css">
+        <script src="./js/jquery.terminal.min.js"></script>
+        <script src="./js/backend.js"></script>
+        <div class="banner"></div>
+        <div class="content">
+            <div class="term"></div>
+        </div>
+        <div class="footer"></div>
+        <a href="#" data-rel="back" class="back">返回</a>
+    </div>
+
+    <!--后台app详情页-->
+    <div data-role="page" id="backapp">
+        <div class="content">
+            <img src="" remark="images/App/background.jpg">
+            <div class="icon">
+                <img id="appufo" src="" remark="images/App/UFO.png">
+                <img id="applight" src="" remark="images/App/light.png">
+                <img id="approbot" src="" remark="images/App/robot.png">
+                <img id="appspeak" src="" remark="images/App/speak.png">
+                <div class="word">
+                    <p>你是爱创新爱设计的技术宅吗？</p>
+                    <p>你有好的想法正愁找不到一个好的团队实现吗？</p>
+                    <p>你想随心所欲的开发自己想要的安卓应用吗？</p>
+                    <p>你想成为传说中的android工程师吗？</p>
+                    <p class="special">快加入我们e瞳网APP组吧。只要你敢玩，我们就陪你一起玩，我们就带你玩出高逼格。</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" data-rel="back" class="back">返回</a>
+    </div>
+
+
+    <!-- 报名页 -->
+    <!-- 引入报名页样式及工具 -->
+    <link rel="stylesheet" type="text/css" href="./css/submit.css">
+    <!-- 引入mobiscroll(报名页生日选择器) -->
+    <link rel="stylesheet" type="text/css" href="./dest/css/mobiscroll-2.13.2.full.min.css">
+    <script src="./dest/js/mobiscroll-2.13.2.full.min.js"></script>
+    <div data-role="page" id="submit">
+        <div id="sub-content">
+            <a href="#" data-rel="back">返回</a>
+            <form action="api/submit.php" method="post">
+                <h1 class="title">ｅ瞳网招新表</h1>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div><input type="text" name="name" id="sub-name"/></div>
+                                <label for="sub-name">姓名 YOURNAME</label>
+                            </td>
+                            <td>
+                                <div class="gender" id="sub-gender">
+                                    <label class="checked">男</label>
+                                    <label>女</label>
+                                    <input type="radio" name="gender" class="man" value="1" checked/>
+                                    <input type="radio" name="gender" class="woman" value="0"/>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <label for="sub-gender">性别 GENDER</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="date" id="sub-Birth" value="1998-01-01"/>
+                                <label for="sub-Birth">出生日期 BIRTHDAY</label>
+                            </td>
+                            <td>
+                                <select name="home" id="sub-home"></select>
+                                <label for="sub-home">籍贯 PLACE OF BIRTH</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="college" id="sub-college">
+                                    <option value="0">彭康书院</option>
+                                    <option value="1">仲英书院</option>
+                                    <option value="2">南洋书院</option>
+                                    <option value="3">文治书院</option>
+                                    <option value="4">崇实书院</option>
+                                    <option value="5">宗濂书院</option>
+                                    <option value="6">励志书院</option>
+                                    <option value="7">启德书院</option>
+                                </select>
+                                <label for="sub-college">书院 COLLEGE</label>
+                            </td>
+                            <td>
+                                <input type="text" name="class" id="sub-class" placeholder="如:计算机61"/>
+                                <label for="sub-class">专业班级 CLASS</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" name="tel" id="sub-tel" placeholder="面试通知将以短信的方式发送"/>
+                                <label for="sub-tel">手机号码 CELLPHONE NUMBER</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" name="qq" id="sub-qq"/>
+                                <label for="sub-qq">QQ号 QQ NUMBER</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" name="mail" id="sub-email" placeholder="提交成功可收到邮件确认"/>
+                                <label for="sub-email">电子邮箱 E-MAIL ADDRESS</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="first" id="sub-first">
+                                    <option value="1">新闻部</option>
+                                    <option value="2" selected>新媒体部</option>
+                                    <option value="3">影视部</option>
+                                    <option value="4">市场部</option>
+                                    <option value="5">公关部</option>
+                                    <option value="6">产品部</option>
+                                    <option value="7">app组</option>
+                                    <option value="8">web组</option>
+                                    <option value="9">前端美工组</option>
+                                </select>
+                                <label for="sub-first">第一志愿 FIRST</label>
+                            </td>
+                            <td>
+                                <select name="second" id="sub-second">
+                                    <option value="1">新闻部</option>
+                                    <option value="2">新媒体部</option>
+                                    <option value="3">影视部</option>
+                                    <option value="4">市场部</option>
+                                    <option value="5">公关部</option>
+                                    <option value="6">产品部</option>
+                                    <option value="7">app组</option>
+                                    <option value="8">web组</option>
+                                    <option value="9">前端美工组</option>
+                                    <option value="0" selected></option>
+                                </select>
+                                <label for="sub-second">第二志愿 SECOND</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="info" id="sub-info" maxlength="255" placeholder="(选填)你有什么话要对我们说...(咱就别用emoji卖萌了，小瞳的服务器会受不了的[害羞])"></textarea>
+                                <span id="sub-tip"></span>
+                                <label for="sub-info">个人陈述 WANNA SAY</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" value="确认提交">
+            </form>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                if (new Date() - new Date("2016-09-04 23:59:59") > 0) {
+                    $("a[href='#submit']").attr("href", "#").on('click', function () {
+                        alert("报名已截止");
+                    });
+                }
+            })
+        </script>
+    </div>
+    <script>
+        // 单选效果
+        $("form #sub-gender label:nth-child(1)").click(function () {
+            $(this).addClass("checked");
+            $("form #sub-gender label:nth-child(2)").removeClass("checked");
+            $("form .man").attr("checked", "checked");
+            $("form .woman").attr("checked", null);
+        });
+        $("form #sub-gender label:nth-child(2)").click(function () {
+            $(this).addClass("checked");
+            $("form #sub-gender label:nth-child(1)").removeClass("checked");
+            $("form .man").attr("checked", null);
+            $("form .woman").attr("checked", "checked");
+        });
+
+        // 普通选择器
+        $("form #sub-college, form #sub-first, form #sub-second").mobiscroll().select({
+            theme: 'android-holo-light',
+            lang: 'zh',
+            display: 'modal',
+            animate: 'fade',
+            buttons: ['set'],
+            rows: 7,
+            headerText: function (valueText) {
+                if (valueText == "") {
+                    return "未选";
+                }
+                return valueText;
+            }
+        });
+
+        var districts = {
+            "北京市": ["东城区", "西城区", "朝阳区", "丰台区", "石景山区", "海淀区", "门头沟区", "房山区", "通州区", "顺义区", "昌平区", "大兴区", "怀柔区", "平谷区", "密云区", "延庆区", "其他"],
+            "天津市": ["和平区", "河东区", "河西区", "南开区", "河北区", "红桥区", "东丽区", "西青区", "津南区", "北辰区", "武清区", "宝坻区", "滨海新区", "宁河区", "静海区", "蓟县", "天津市郊县", "其他"],
+            "河北省": ["石家庄市", "唐山市", "秦皇岛市", "邯郸市", "邢台市", "保定市", "张家口市", "承德市", "沧州市", "廊坊市", "衡水市", "其他"],
+            "山西省": ["太原市", "大同市", "阳泉市", "长治市", "晋城市", "朔州市", "晋中市", "运城市", "忻州市", "临汾市", "吕梁市", "其他"],
+            "内蒙古自治区": ["呼和浩特市", "包头市", "乌海市", "赤峰市", "通辽市", "鄂尔多斯市", "呼伦贝尔市", "巴彦淖尔市", "乌兰察布市", "兴安盟", "锡林郭勒盟", "阿拉善盟", "其他"],
+            "辽宁省": ["沈阳市", "大连市", "鞍山市", "抚顺市", "本溪市", "丹东市", "锦州市", "营口市", "阜新市", "辽阳市", "盘锦市", "铁岭市", "朝阳市", "葫芦岛市", "其他"],
+            "吉林省": ["长春市", "吉林市", "四平市", "辽源市", "通化市", "白山市", "松原市", "白城市", "延边朝鲜族自治州", "其他"],
+            "黑龙江省": ["哈尔滨市", "齐齐哈尔市", "鸡西市", "鹤岗市", "双鸭山市", "大庆市", "伊春市", "佳木斯市", "七台河市", "牡丹江市", "黑河市", "绥化市", "大兴安岭地区", "其他"],
+            "上海市": ["黄浦区", "徐汇区", "长宁区", "静安区", "普陀区", "虹口区", "杨浦区", "闵行区", "宝山区", "嘉定区", "浦东新区", "金山区", "松江区", "青浦区", "奉贤区", "崇明县", "上海市郊县", "其他"],
+            "江苏省": ["南京市", "无锡市", "徐州市", "常州市", "苏州市", "南通市", "连云港市", "淮安市", "盐城市", "扬州市", "镇江市", "泰州市", "宿迁市", "其他"],
+            "浙江省": ["杭州市", "宁波市", "温州市", "嘉兴市", "湖州市", "绍兴市", "金华市", "衢州市", "舟山市", "台州市", "丽水市", "其他"],
+            "安徽省": ["合肥市", "芜湖市", "蚌埠市", "淮南市", "马鞍山市", "淮北市", "铜陵市", "安庆市", "黄山市", "滁州市", "阜阳市", "宿州市", "六安市", "亳州市", "池州市", "宣城市", "其他"],
+            "福建省": ["福州市", "厦门市", "莆田市", "三明市", "泉州市", "漳州市", "南平市", "龙岩市", "宁德市", "其他"],
+            "江西省": ["南昌市", "景德镇市", "萍乡市", "九江市", "新余市", "鹰潭市", "赣州市", "吉安市", "宜春市", "抚州市", "上饶市", "其他"],
+            "山东省": ["济南市", "青岛市", "淄博市", "枣庄市", "东营市", "烟台市", "潍坊市", "济宁市", "泰安市", "威海市", "日照市", "莱芜市", "临沂市", "德州市", "聊城市", "滨州市", "菏泽市", "其他"],
+            "河南省": ["郑州市", "开封市", "洛阳市", "平顶山市", "安阳市", "鹤壁市", "新乡市", "焦作市", "濮阳市", "许昌市", "漯河市", "三门峡市", "南阳市", "商丘市", "信阳市", "周口市", "驻马店市", "济源市", "其他"],
+            "湖北省": ["武汉市", "黄石市", "十堰市", "宜昌市", "襄阳市", "鄂州市", "荆门市", "孝感市", "荆州市", "黄冈市", "咸宁市", "随州市", "恩施土家族苗族自治州", "仙桃市", "潜江市", "天门市", "神农架林区", "其他"],
+            "湖南省": ["长沙市", "株洲市", "湘潭市", "衡阳市", "邵阳市", "岳阳市", "常德市", "张家界市", "益阳市", "郴州市", "永州市", "怀化市", "娄底市", "湘西土家族苗族自治州", "其他"],
+            "广东省": ["广州市", "韶关市", "深圳市", "珠海市", "汕头市", "佛山市", "江门市", "湛江市", "茂名市", "肇庆市", "惠州市", "梅州市", "汕尾市", "河源市", "阳江市", "清远市", "东莞市", "中山市", "潮州市", "揭阳市", "云浮市", "其他"],
+            "广西壮族自治区": ["南宁市", "柳州市", "桂林市", "梧州市", "北海市", "防城港市", "钦州市", "贵港市", "玉林市", "百色市", "贺州市", "河池市", "来宾市", "崇左市", "其他"],
+            "海南省": ["海口市", "三亚市", "三沙市", "儋州市", "五指山市", "琼海市", "文昌市", "万宁市", "东方市", "定安县", "屯昌县", "澄迈县", "临高县", "白沙黎族自治县", "昌江黎族自治县", "乐东黎族自治县", "陵水黎族自治县", "保亭黎族苗族自治县", "琼中黎族苗族自治县", "其他"],
+            "重庆市": ["万州区", "涪陵区", "渝中区", "大渡口区", "江北区", "沙坪坝区", "九龙坡区", "南岸区", "北碚区", "綦江区", "大足区", "渝北区", "巴南区", "黔江区", "长寿区", "江津区", "合川区", "永川区", "南川区", "璧山区", "铜梁区", "潼南区", "荣昌区", "梁平县", "城口县", "丰都县", "垫江县", "武隆县", "忠县", "开县", "云阳县", "奉节县", "巫山县", "巫溪县", "石柱土家族自治县", "秀山土家族苗族自治县", "酉阳土家族苗族自治县", "彭水苗族土家族自治县", "重庆市郊县", "其他"],
+            "四川省": ["成都市", "自贡市", "攀枝花市", "泸州市", "德阳市", "绵阳市", "广元市", "遂宁市", "内江市", "乐山市", "南充市", "眉山市", "宜宾市", "广安市", "达州市", "雅安市", "巴中市", "资阳市", "阿坝藏族羌族自治州", "甘孜藏族自治州", "凉山彝族自治州", "其他"],
+            "贵州省": ["贵阳市", "六盘水市", "遵义市", "安顺市", "毕节市", "铜仁市", "黔西南布依族苗族自治州", "黔东南苗族侗族自治州", "黔南布依族苗族自治州", "其他"],
+            "云南省": ["昆明市", "曲靖市", "玉溪市", "保山市", "昭通市", "丽江市", "普洱市", "临沧市", "楚雄彝族自治州", "红河哈尼族彝族自治州", "文山壮族苗族自治州", "西双版纳傣族自治州", "大理白族自治州", "德宏傣族景颇族自治州", "怒江傈僳族自治州", "迪庆藏族自治州", "其他"],
+            "西藏": ["拉萨市", "日喀则市", "昌都市", "林芝市", "山南地区", "那曲地区", "阿里地区", "其他"],
+            "陕西省": ["西安市", "铜川市", "宝鸡市", "咸阳市", "渭南市", "延安市", "汉中市", "榆林市", "安康市", "商洛市", "其他"],
+            "甘肃省": ["兰州市", "嘉峪关市", "金昌市", "白银市", "天水市", "武威市", "张掖市", "平凉市", "酒泉市", "庆阳市", "定西市", "陇南市", "临夏回族自治州", "甘南藏族自治州", "其他"],
+            "青海省": ["西宁市", "海东市", "海北藏族自治州", "黄南藏族自治州", "海南藏族自治州", "果洛藏族自治州", "玉树藏族自治州", "海西蒙古族藏族自治州", "其他"],
+            "宁夏": ["银川市", "石嘴山市", "吴忠市", "固原市", "中卫市", "其他"],
+            "新疆": ["乌鲁木齐市", "克拉玛依市", "吐鲁番市", "哈密地区", "昌吉回族自治州", "博尔塔拉蒙古自治州", "巴音郭楞蒙古自治州", "阿克苏地区", "克孜勒苏柯尔克孜自治州", "喀什地区", "和田地区", "伊犁哈萨克自治州", "塔城地区", "阿勒泰地区", "石河子市", "阿拉尔市", "图木舒克市", "五家渠市", "北屯市", "铁门关市", "双河市", "可克达拉市", "其他"],
+            "台湾省": ["台北市", "新北市", "桃园市", "台中市", "台南市", "高雄市", "基隆市", "新竹市", "嘉义市", "新竹县", "苗栗县", "彰化县", "南投县", "云林县", "嘉义县", "屏东县", "宜兰县", "花莲县", "台东县", "澎湖县", "其他"],
+            "香港": ["中西区", "湾仔区", "东区", "南区", "油尖旺区", "深水埗区", "九龙城区", "黄大仙区", "观塘区", "荃湾区", "屯门区", "元朗区", "北区", "大埔区", "西贡区", "沙田区", "葵青区", "离岛区", "其他"],
+            "澳门": ["花地玛堂区", "花王堂区", "望德堂区", "大堂区", "风顺堂区", "嘉模堂区", "路凼填海区", "圣方济各堂区", "其他"],
+            "其他": ["其他"]
+        };
+        var arr = [];
+        for (var i in districts) {
+            arr.push('<optgroup label="' + i + '">');
+            for (var j in districts[i]) {
+                if (i == "陕西省" && j == 0) {
+                    arr.push('<option value="' + i + " " + districts[i][j] + '" selected>' + districts[i][j] + '</option>');
+                } else {
+                    arr.push('<option value="' + i + " " + districts[i][j] + '">' + districts[i][j] + '</option>');
+                }
+            }
+            arr.push('</optgroup>');
+        }
+        // 地点选择器
+        var txt;
+        $('form select[name="home"]').html(arr.join("")).mobiscroll().select({
+            theme: 'android-holo-light',
+            lang: "zh",
+            display: 'modal',
+            animate: 'fade',
+            buttons: ['set'],
+            rows: 9,
+            group: true,
+            fixedWidth: [130, 130],
+            headerText: function (valueText) {
+                txt = $('.dwwr .dwcc .dwwl1 div[aria-selected="true"]').attr("data-val");
+                if (txt == undefined) {
+                    txt = "陕西省 西安市";
+                }
+                return txt;
+            },
+            onSelect: function () {
+                $("form #sub-home_dummy").val(txt);
+            }
+        });
+        $("form #sub-home_dummy").val("陕西省 西安市");
+
+        // 日历选择器
+        $("form #sub-Birth").mobiscroll().date({
+            lang: "zh",  // 语言
+            preset: 'date',  // 日期类型--datatime --time,
+            theme: 'android-ics light', // 皮肤样式【android-ics light】【android-ics】【ios】【jqm】【sense-ui】【sense-ui】【sense-ui】【wp light】【wp】
+            mode: "scroller",  // 操作方式【scroller】【clickpick】【mixed】
+            display: 'modal',  // 显示位置【modal】【inline】【bubble】【top】【bottom】
+            dateFormat: 'yy-mm-dd', // 日期提交格式
+            setText: '确定',  // 确认按钮名称
+            cancelText: null,  // 取消按钮名称
+            startYear: 1986,  //开始年份
+            endYear: 2006,  //结束年份
+            rows: 3,
+            animate: 'fade',  // 显示效果
+            defaultValue: new Date(1998, 0, 1), // 打开时的初始值，与其他工具出现冲突，未生效
+            //自定义弹出框头部格式
+            headerText: function (valueText) {
+                array = valueText.split('-');
+                return array[0] + "年" + array[1] + "月" + array[2] + "日";
+            }
+        });
+
+        // 个人陈述字数提醒
+        var sub_words = 0;
+        var sub_tip = $("form #sub-tip");
+        var sub_txtarea = $('form textarea');
+        sub_tip.html(sub_words + "/255");
+        sub_txtarea.bind('input propertychange', function () {
+            console.log("1");
+            sub_words = sub_txtarea.val().length;
+            sub_tip.html(sub_words + "/255");
+        });
+
+        // 验证输入数据
+        function validate(jQueryObject, regexp, errmsg, strict) {
+            var val = jQueryObject.val();
+            if (regexp.test(val) || (!strict && val == "")) {
+                return "";
+            }
+            jQueryObject.addClass("invalid");
+            return errmsg + "\n";
+        }
+        function validateAll(strict) {
+            $("form .invalid").removeClass("invalid");
+            return validate($('form input[name="name"]'), /^.{1,10}$/, "姓名：1-10个汉字/英文字母", strict)
+                    + validate($('form input[name="home"]'), /^.{0,40}$/, "籍贯：0-40个汉字/英文字母", strict)
+                    + validate($('form input[name="class"]'), /^.{1,20}$/, "专业班级：1-20个汉字/英文字母", strict)
+                    + validate($('form input[name="tel"]'), /^(1((3\d)|(4[579])|(5[012356789])|(7[05678])|(8\d))\d{8})$/, "手机号段不存在", strict)
+                    + validate($('form input[name="qq"]'), /^[1-9]\d{4,10}$/, "QQ号格式不正确", strict)
+                    + validate($('form input[name="mail"]'), /^.+?@.+\..+?$/, "邮箱格式不正确", strict)
+                    + validate($('form select[name="second"]'), {
+                        test: function (val) {
+                            if (val === $('form select[name="first"]').val()) {
+                                return false;
+                            }
+                            return true;
+                        }
+                    }, "第二志愿必须与第一志愿不同", strict)
+                    + validate($('form textarea[name="info"]'), /^.{0,255}$/, "个人陈述：0-255个汉字/英文字母", strict);
+        }
+        $("form").change(function () {
+            validateAll(false);
+        });
+        $("form").submit(function () {
+            var result = validateAll(true);
+            if (result !== "") {
+                alert(result);
+                return false;
+            }
+            // 暂时禁用按钮
+            $('form>div').addClass("submitting").attr("disabled", true);
+            var timeoutId = setTimeout(function () {
+                // 超时提示，然后恢复按钮
+                alert("连接超时\n请检查网络是否连接\n有问题可以加e瞳新生群552035254询问\n(也说不定是我们服务器出问题了)");
+                $('form>div').removeClass("submitting").attr("disabled", "");
+            }, 10000);
+            $.post($(this).attr("action"), $(this).serialize(), function (data) {
+                clearTimeout(timeoutId);
+                $('form>div').removeClass("submitting").attr("disabled", "");
+                if (data === '-1') {
+                    alert("获取IP失败");
+                } else if (data === '-2') {
+                    alert("同一IP多次提交\n有问题可以加e瞳新生群552035254询问\n(可能是我们后台web组的同学数据验证做得太狠，不小心误伤了)");
+                } else if (data === '-3') {
+                    alert("数据不合理\n如果数据的确无误，可以请加e瞳新生群552035254询问\n(可能是我们后台web组的同学数据验证做得太狠，不小心误伤了)");
+                } else if (data === '-4') {
+                    alert("提交数据失败");
+                } else if (data === '-5') {
+                    alert("提交数据成功");
+                } else if (data === '1') {
+                    alert("提交成功");
+                } else {
+                    alert("未知错误");
+                }
+                return false;
+            });
+            return false;
+        });
+    </script>
+
+</body>
+
+</html>
