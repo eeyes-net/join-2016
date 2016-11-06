@@ -1,4 +1,11 @@
 <?php
+/**
+ * e瞳网2016年招新网站，提交数据处理脚本
+ *
+ * @author    Ganlv <ganlvtech@qq.com>
+ * @copyright 2016 eeyes.net
+ * @license   Apache-2.0
+ */
 // 读取配置文件
 require 'config.php';
 
@@ -7,7 +14,7 @@ require 'config.php';
  *
  * @param bool $advance 是否使用高级方式获取ip，PHP主机暴露可能被伪造
  *                      false 返回 REMOTE_ADDR
- *                      true 返回 HTTP_X_FORWARDED_FOR首个ip -> HTTP_CLIENT_IP -> REMOTE_ADDR
+ *                      true 返回 HTTP_X_REAL_IP -> HTTP_X_FORWARDED_FOR首个ip -> HTTP_CLIENT_IP -> REMOTE_ADDR
  *
  * @return bool|string ip不合法返回false
  */
@@ -104,7 +111,6 @@ if (isset($ip[$client_ip])) {
 }
 // 写入防刷记录文件
 file_put_contents(IP_FILE, '<?php return ' . var_export($ip, true) . ';');
-
 /**
  * 验证输入数据
  * 姓名：1-20个UTF-8字符
@@ -238,6 +244,5 @@ if (isset($MAIL_SERVER)) {
         exit('-5');
     }
 }
-
 // 提交成功
 exit('1');

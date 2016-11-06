@@ -1,4 +1,11 @@
 <?php
+/**
+ * e瞳网2016年招新网站，导出csv文件
+ *
+ * @author    Ganlv <ganlvtech@qq.com>
+ * @copyright 2016 eeyes.net
+ * @license   Apache-2.0
+ */
 require 'config.php';
 if (isset($_POST['password']) && $_POST['password'] === PASSWORD) {
     header('Content-Type: application/octet-stream');
